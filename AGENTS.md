@@ -65,7 +65,7 @@ docs/PRD.md
 
 docs/DESIGN.md
 
-docs/tech-stack.md
+docs/TECH_STACK.md
 
 docs/ROADMAP.md
 

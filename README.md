@@ -72,6 +72,6 @@ pnpm dev
 - 产品需求：`docs/PRD.md`
 - 页面设计：`docs/DESIGN.md`
 - 开发路线图：`docs/ROADMAP.md`
-- 技术选型：`docs/tech-stack.md`
+- 技术选型：`docs/TECH_STACK.md`
 
 `docs/PRD.md` 是本项目唯一且最高优先级的产品需求依据。如果其他文档与 PRD 冲突，以 PRD 为准。
