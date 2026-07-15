@@ -65,11 +65,22 @@ docs/PRD.md
 
 docs/DESIGN.md
 
-docs/TECH_STACK.md
+docs/tech-stack.md
 
 docs/ROADMAP.md
 
 理解项目背景后再开始开发。
+
+`docs/PRD.md` 是本项目唯一且最高优先级的产品需求依据。
+
+开发时必须严格按照 `docs/PRD.md` 定义的 V1 范围执行。
+
+如果发现需求超出 V1：
+
+- 不要主动开发
+- 不要擅自增加功能
+- 先提醒用户该需求所属版本
+- 等待用户明确确认后再执行
 
 ---
 
@@ -97,7 +108,7 @@ docs/ROADMAP.md
 
 ↓
 
-✅ 历史记录
+✅ 一键复制与错误处理
 
 每一步都必须可以运行。
 
@@ -150,11 +161,11 @@ Backend：
 
 Database：
 
-- Supabase PostgreSQL
+- Supabase PostgreSQL（V2 开始使用）
 
 Authentication：
 
-- Supabase Auth
+- Supabase Auth（V2 开始使用）
 
 AI：
 
@@ -358,6 +369,8 @@ chore:
 
 □ 是否阅读 PRD.md
 
+□ 是否严格处于 PRD.md 的 V1 范围内
+
 □ 是否理解当前目标
 
 □ 是否知道修改哪些文件
@@ -381,20 +394,34 @@ chore:
 - 商品信息输入
 - AI 商品标题生成
 - AI 商品介绍生成
-- AI 宣传文案生成
+- AI 营销文案生成
 - AI 客服回复生成
-- 历史记录
+- 一键复制
+- 加载状态
+- 错误提示
 - 响应式页面
+- OpenAI API 接入
+- Vercel 部署
 
-暂不开发：
+V1 不开发：
 
-- 支付
-- 会员
-- AI 图片生成
+- 用户登录
+- Supabase
+- 数据库
+- 历史记录
+- 收藏
+- 图片生成
+- 支付系统
+- 会员系统
 - 图片识别
 - 多模型切换
+- Token 管理
 - 管理后台
 - 权限系统
+
+用户登录、Supabase、数据库、历史记录、收藏和重新生成属于 V2。
+
+如果未来任务涉及上述功能，必须先提醒用户它们不属于 V1，不得直接实现。
 
 ---
 
